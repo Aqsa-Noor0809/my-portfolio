@@ -296,9 +296,10 @@ section{
 .home-img img{
     position: absolute;
     bottom: 0;
-    right: 0;
+    right: 10rem;
     width: 40%;
     pointer-events: none;
+    border-radius: 50%;
 }
 
 span{
@@ -314,6 +315,11 @@ span{
 
 .about-img{
     width: 40vw;
+}
+
+.about-img img{
+    height: 400px;
+    border-radius: 50%;
 }
 
 .heading{
@@ -812,7 +818,8 @@ span{
 }
 
 @media (max-width: 365px){
-    .about-img img{
+
+    .about-img{
         width: 90vw;
     }
 
